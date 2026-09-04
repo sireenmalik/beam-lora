@@ -1,0 +1,16 @@
+# venvs and caches
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+trainer_tmp/
+.cache/
+
+# large model artifacts, keep the adapter only
+*.gguf
+beam-merged/
+checkpoint-*/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,11 @@
+# Python side dependencies for the local Qwen 2.5 + LoRA endpoint.
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+
+transformers>=4.45
+peft>=0.13
+accelerate>=0.34
+safetensors>=0.4
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.7
